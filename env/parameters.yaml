@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:crusherfrill/adminUser:password
+  username: admin
+dashboardAuthID: vault:crusherfrill:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:crusherfrill:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:crusherfrill/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:crusherfrill/prow:hmacToken
